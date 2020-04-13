@@ -1,3 +1,5 @@
-from PIL import Images
+from PIL import Image
 
-# where is the code?
+img = Image.open('./images/pikachu.jpg')
+
+print(img)
