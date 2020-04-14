@@ -1,5 +1,5 @@
-from PIL import Image
+from PIL import Image, ImageFilter
 
 img = Image.open('./images/pikachu.jpg')
-
-print(img)
+filtered_img = img.convert('L')
+filtered_img. save("Blur.png", "png")
